@@ -13,6 +13,7 @@ This file is used to track the language used in the current implementations:
 - [ ] C#
 - [ ] Clipper
 - [x] Clojure
+- [ ] COBOL
 - [ ] CoffeeScript
 - [ ] Common LISP
 - [x] Elixir
@@ -32,6 +33,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Lua
 - [ ] MATLAB
 - [ ] Nimrod
+- [ ] Objective-C
 - [ ] OCaml
 - [ ] Pascal
 - [ ] Perl
@@ -39,14 +41,17 @@ This file is used to track the language used in the current implementations:
 - [ ] PogoScript
 - [ ] Processing
 - [ ] PureScript
+- [ ] Pyret
 - [x] Python
+- [ ] Racket
 - [x] Ruby
 - [ ] Rust
+- [ ] Scheme
 - [ ] Self
 - [ ] Shell
-- [X] Smalltalk
+- [x] Smalltalk
 - [ ] Swift
 - [ ] TypeScript
-- [X] VisualBasic
+- [x] VisualBasic
 - [ ] Whip
 - [ ] ZPL
