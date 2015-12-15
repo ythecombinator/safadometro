@@ -37,7 +37,7 @@ This file is used to track the language used in the current implementations:
 - [ ] PogoScript
 - [ ] Processing
 - [ ] PureScript
-- [ ] Python
+- [x] Python
 - [ ] Ruby
 - [ ] Rust
 - [ ] Self
