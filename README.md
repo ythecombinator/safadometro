@@ -67,21 +67,23 @@ Brazilian musician, Wesley Safadão, to write his logical challenge.
 ### Adding a New Implementation
 
 1. Just think of your own interpretation of the problem.
+1. Check if anyone has suggested this before [here](https://github.com/mabrasil/safadometro/pulls).
 1. Fork this project!
-1. Create a new folder with the name of the language you've used in your solution, e.g. `javascript/`
-1. **Put the implementation and the example in separated files**
+1. Create a new folder with the name of the language you've used in your solution, e.g. `javascript/`.
+1. **Put the implementation and the example in separated files**.
 1. Tick the language - with `- [x]` in *GitHub Flavored Markdown* - in which
-you've implemented [here](STATUS.md)
-1. Commit your changes: `git commit -m 'Add JavaScript version'`
-1. Push to the branch: `git push origin master`
+you've implemented [here](STATUS.md).
+1. Commit your changes: `git commit -m 'Add JavaScript version'`.
+1. Push to the branch: `git push origin master`.
 1. Submit a pull request :)
 
 ### Adding a New Language
 
+1. Check if anyone has suggested this before [here](https://github.com/mabrasil/safadometro/pulls).
 1. Fork this project!
 1. Add the language to the [languages tracking file](STATUS.md) - **don't forget to obey alphabetical order**.
-1. Commit your changes: `git commit -m 'Add JavaScript to listed languages'`
-1. Push to the branch: `git push origin master`
+1. Commit your changes: `git commit -m 'Add JavaScript to listed languages'`.
+1. Push to the branch: `git push origin master`.
 1. Submit a pull request :)
 
 ## Status
