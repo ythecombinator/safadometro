@@ -8,11 +8,8 @@ Function SumMonth( n )
   Return nSum
 
 Function WesleySafadao( nDay, nMonth, nYear )
-  Local nSafadeza
-  Local nAnjo
-
-  nSafadeza := SumMonth( nMonth ) + ( nYear / 100 ) * ( 50 - nDay )
-  nAnjo := 100 - nSafadeza
+  Local nSafadeza := SumMonth( nMonth ) + ( nYear / 100 ) * ( 50 - nDay )
+  Local nAnjo := 100 - nSafadeza
 
   ? "Você é " + Str( NoRound( nSafadeza ) ) + "% safado e " +;
     Str( NoRound( nAnjo ) ) + "% anjo"
