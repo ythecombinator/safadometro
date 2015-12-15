@@ -12,7 +12,7 @@ This file is used to track the language used in the current implementations:
 - [ ] C++
 - [ ] C#
 - [ ] Clipper
-- [ ] Clojure
+- [x] Clojure
 - [ ] CoffeeScript
 - [ ] Common LISP
 - [ ] Elixir
