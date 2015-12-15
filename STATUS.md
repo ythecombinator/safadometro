@@ -42,6 +42,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Rust
 - [ ] Self
 - [ ] Shell
+- [X] Smalltalk
 - [ ] Swift
 - [ ] TypeScript
 - [ ] VisualBasic
