@@ -1,4 +1,4 @@
-# Adejair Júnior <aejair.junioroulook@gmail.com>
+# Adejair Júnior <adejair.junioroulook@gmail.com>
 
 class Safadao
   constructor: (@day, @month, @year) ->
