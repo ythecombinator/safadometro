@@ -4,10 +4,10 @@ Public Module VBModule
  
 	Public Sub Main()  
     
-        Dim wesleysafadao As String 
+    Dim wesleysafadao As String 
 	Dim values(6) As Double
    
-	Console.WriteLine("Entre com sua data de nascimento,sem separar por barra: ")
+	Console.WriteLine("Entre com sua data de nascimento, sem separar por barra: ")
 	wesleysafadao = Console.ReadLine()
         
 		values(2) = wesleysafadao.substring(0,2)
