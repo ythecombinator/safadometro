@@ -1,7 +1,7 @@
 #!/bin/sh
 if [ -z $1 ] || [ -z $2 ] || [ -z $3 ]; then
 echo "Informe nos parametros separado por espaço a sua data de nascimento." 
-echo "Exemplo: ./WesleySafadao.sh 21 10 1994"
+echo "Exemplo: ./WesleySafadao.sh 21 10 94"
 fi
 
 dia=$1 
