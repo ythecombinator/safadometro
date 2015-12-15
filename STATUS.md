@@ -10,7 +10,7 @@ This file is used to track the language used in the current implementations:
 - [ ] BASIC
 - [ ] C
 - [ ] C++
-- [ ] C#
+- [x] C#
 - [ ] Clipper
 - [x] Clojure
 - [ ] COBOL
