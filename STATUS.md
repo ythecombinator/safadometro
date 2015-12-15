@@ -24,7 +24,7 @@ This file is used to track the language used in the current implementations:
 - [x] Haskell
 - [ ] Haxe
 - [ ] Hy
-- [ ] Java
+- [x] Java
 - [ ] JavaScript
 - [ ] Ink
 - [x] LiveScript
