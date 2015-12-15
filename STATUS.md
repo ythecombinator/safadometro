@@ -15,7 +15,7 @@ This file is used to track the language used in the current implementations:
 - [x] Clojure
 - [ ] CoffeeScript
 - [ ] Common LISP
-- [ ] Elixir
+- [x] Elixir
 - [ ] Erlang
 - [ ] F#
 - [ ] FORTRAN
