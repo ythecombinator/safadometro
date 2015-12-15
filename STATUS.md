@@ -45,6 +45,6 @@ This file is used to track the language used in the current implementations:
 - [X] Smalltalk
 - [ ] Swift
 - [ ] TypeScript
-- [ ] VisualBasic
+- [X] VisualBasic
 - [ ] Whip
 - [ ] ZPL
