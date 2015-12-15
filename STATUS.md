@@ -36,7 +36,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Nimrod
 - [ ] Objective-C
 - [ ] OCaml
-- [ ] Pascal
+- [x] Pascal
 - [ ] Perl
 - [x] PHP
 - [ ] PogoScript
