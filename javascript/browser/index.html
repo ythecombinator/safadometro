@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Saiba seu grau de safadeza e anjo</title>
+    <style>
+      body {
+        margin: 50px;
+        font: 14px Arial, sans-serif;
+      }
+
+      label {
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      input, button {
+        font: 14px Arial, sans-serif;
+        padding: 10px;
+      }
+
+      input {
+        width: 50px;
+      }
+
+      .response {
+        font-size: 30px;
+        padding: 50px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <label>Data de nascimento:</label>
+    <input data-js="day" placeholder="Dia">
+    <input data-js="month" placeholder="Mês">
+    <input data-js="year" placeholder="Ano">
+    <button data-js="submit">Medir!</button>
+
+    <div data-js="response"></div>
+  <script src="wesley-safadao.js"></script>
+  <script>
+    ;(function() {
+      'use strict';
+
+      function $ (element) {
+        return document.querySelector(element);
+      }
+
+      var $button = $('[data-js="submit"]');
+      var $response = $('[data-js="response"]');
+  
+      $button.addEventListener('click', function(e) {
+        e.preventDefault();
+        var $day = $('[data-js="day"]').value;
+        var $month = $('[data-js="month"]').value;
+        var $year = $('[data-js="year"]').value;
+        $response.textContent = wesleySafadao($day, $month, $year);
+      }, false);
+    })();
+  </script>
+  </body>
+</html>
