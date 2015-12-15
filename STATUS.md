@@ -6,7 +6,7 @@ any language in which you'd like to see implementations, check [this](CONTRIBUTI
 This file is used to track the language used in the current implementations:
 
 - [ ] Ada
-- [ ] AdvPL
+- [x] AdvPL
 - [ ] BASIC
 - [ ] C
 - [ ] C++
