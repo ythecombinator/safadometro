@@ -4,8 +4,9 @@
     <title>Saiba seu grau de safadeza e anjo</title>
     <style>
       body {
-        margin: 50px;
         font: 14px Arial, sans-serif;
+        margin: 50px;
+        text-align: center;
       }
 
       label {
@@ -27,19 +28,19 @@
       .response {
         font-size: 30px;
         padding: 50px;
-        text-align: center;
       }
     </style>
   </head>
 
   <body>
+    <h1>Saiba qual o seu grau de safadeza e de anjo</h1>
     <label>Data de nascimento:</label>
     <input data-js="day" placeholder="Dia">
     <input data-js="month" placeholder="Mês">
     <input data-js="year" placeholder="Ano">
     <button data-js="submit">Medir!</button>
 
-    <div data-js="response"></div>
+    <div data-js="response" class="response"></div>
   <script src="wesley-safadao.js"></script>
   <script>
     ;(function() {
