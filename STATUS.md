@@ -38,7 +38,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Processing
 - [ ] PureScript
 - [x] Python
-- [ ] Ruby
+- [x] Ruby
 - [ ] Rust
 - [ ] Self
 - [ ] Shell
