@@ -41,7 +41,7 @@ This file is used to track the language used in the current implementations:
 - [x] PHP
 - [ ] PogoScript
 - [ ] Processing
-- [x] Progress - Openedge
+- [x] Progress - OpenEdge
 - [ ] PureScript
 - [ ] Pyret
 - [x] Python
