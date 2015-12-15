@@ -1,8 +1,10 @@
 # safadômetro
 
-> Polyglot implementations of "safadeza" calculus.
+> Polyglot implementations of *"safadeza"* calculus.
 
 ![Aquele 1%](cover.png)
+
+## The problem
 
 Sometimes, you want to know how **safad(o/a)** - a Brazilian Portuguese word for
 *naughty* - someone is. A very popular Brazilian musician desbribes himself as
@@ -47,3 +49,29 @@ Brazilian musician, Wesley Safadão, to write his logical challenge.
 [on the web](http://www.ibahia.com/detalhe/noticia/professor-cita-wesley-safadao-em-questao-de-prova-e-faz-sucesso/?cHash=74e1cc909aa2269eb81a4401b282d892)
 [about it](http://maisregiao.com.br/professor-cita-wesley-safadao-em-questao-de-prova-e-faz-sucesso/).
 
+## Contributing
+
+### Adding a new implementation
+
+1. Just think of your own interpretation of the problem.
+1. Fork this project!
+1. Create a new folder with the name of the language you've used in your solution, e.g. `javascript/`
+1. Tick the language - with `- [x]` in *GitHub Flavored Markdown* - in which
+you've implemented [here](STATUS.MD)
+1. Commit your changes: `git commit -m 'Add JavaScript version'`
+1. Push to the branch: `git push origin master`
+1. Submit a pull request :)
+
+### Adding a new language
+
+1. Fork this project!
+1. Add the language to the [languages tracking file](STATUS.MD) - **don't forget to obey alphabetical order**.
+1. Commit your changes: `git commit -m 'Add JavaScript to listed languages'`
+1. Push to the branch: `git push origin master`
+1. Submit a pull request :)
+
+## License
+
+[safadometro](https://github.com/mabrasil/safadometro) is distributed under the
+MIT License, available in this repository. All contributions are assumed to be also licensed under
+the MIT License.
