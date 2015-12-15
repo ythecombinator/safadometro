@@ -33,6 +33,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Nimrod
 - [ ] OCaml
 - [ ] Pascal
+- [ ] Perl
 - [x] PHP
 - [ ] PogoScript
 - [ ] Processing
