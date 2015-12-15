@@ -41,6 +41,11 @@ I look forward to seeing what you come up with c:
 
 ## Motivation
 
+![Where everything started.](question.jpg)
+
+> The programming question which quotes Wesley Safadão and turned to be a hit
+on the web.
+
 It all started when a professor from the Quixadá campus of the Federal University
 of Ceará - *Universidade Federal do Ceará (UFC)* - Jefferson de Carvalho called
 everyone's attention by using a hit of the *sertanejo * and *forró music* to teach
