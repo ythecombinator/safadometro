@@ -25,7 +25,7 @@ how *safado* some is based on his/her date of birth.
 The *magical formula* needs:
 
 - A `sum` function which takes an `int` a returns the sum of it with all its
-previous positive integers, e.g. `sum(5)= 5+4+3+2+1`.
+previous positive integers, e.g. `sum(5) = 5 + 4 + 3 + 2 + 1`.
 
 - A `safadeza` function which is given by:
 
@@ -48,7 +48,7 @@ on the web.
 
 It all started when a professor from the Quixadá campus of the Federal University
 of Ceará - *Universidade Federal do Ceará (UFC)* - Jefferson de Carvalho called
-everyone's attention by using a hit of the *sertanejo * and *forró music* to teach
+everyone's attention by using a hit of the *sertanejo* and *forró music* to teach
 imperative programming logic to his students.
 
 He was inspired by the song *[Aquele 1%](http://www.vagalume.com.br/marcos-e-belutti/aquele-um-por-cento-part-wesley-safadao.html)*,
