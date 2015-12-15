@@ -48,6 +48,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Racket
 - [x] Ruby
 - [ ] Rust
+- [x] Scala
 - [ ] Scheme
 - [ ] Self
 - [x] Shell
