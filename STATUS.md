@@ -21,7 +21,7 @@ This file is used to track the language used in the current implementations:
 - [ ] FORTRAN
 - [ ] Go
 - [ ] Harbour
-- [ ] Haskell
+- [x] Haskell
 - [ ] Haxe
 - [ ] Hy
 - [ ] Java
@@ -41,6 +41,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Ruby
 - [ ] Rust
 - [ ] Self
+- [x] Smalltalk
 - [ ] Shell
 - [ ] Swift
 - [ ] TypeScript
