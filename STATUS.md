@@ -14,7 +14,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Clipper
 - [x] Clojure
 - [ ] COBOL
-- [ ] CoffeeScript
+- [x] CoffeeScript
 - [ ] Common LISP
 - [ ] Dart
 - [x] Elixir
@@ -41,7 +41,7 @@ This file is used to track the language used in the current implementations:
 - [x] PHP
 - [ ] PogoScript
 - [ ] Processing
-- [X] Progres - Openedge
+- [x] Progress - Openedge
 - [ ] PureScript
 - [ ] Pyret
 - [x] Python
