@@ -50,7 +50,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Rust
 - [ ] Scheme
 - [ ] Self
-- [ ] Shell
+- [x] Shell
 - [x] Smalltalk
 - [ ] Swift
 - [ ] TypeScript
