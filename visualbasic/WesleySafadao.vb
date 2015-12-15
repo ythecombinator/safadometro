@@ -18,9 +18,7 @@ Public Module VBModule
 		values(1) += item
 	Next
 	
-	Console.WriteLine(values(1))
-	
-        values(0) = values(1)+(values(4)/100)*(50-values(2))
+    values(0) = values(1)+(values(4)/100)*(50-values(2))
 	values(5) = 100 - values(0)
         
 	Console.WriteLine("Você é " & values(0) & "% safado" & " e " & values(5) & "% anjo.")
