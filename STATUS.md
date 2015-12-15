@@ -23,7 +23,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Harbour
 - [x] Haskell
 - [ ] Haxe
-- [ ] Hy
+- [x] Hy
 - [x] Java
 - [x] JavaScript
 - [ ] Ink
