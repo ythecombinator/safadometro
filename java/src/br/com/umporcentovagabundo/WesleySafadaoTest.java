@@ -4,7 +4,7 @@ public class WesleySafadaoTest {
 
     public static void main(String[] args) {
 
-        WesleySafadao.baseadoNaData(3, 5, 83).dizQualPercentualSafadezaEAnjo();
+        WesleySafadao.baseadoNaData(3, 1, 83).dizQualPercentualSafadezaEAnjo();
 
     }
 }

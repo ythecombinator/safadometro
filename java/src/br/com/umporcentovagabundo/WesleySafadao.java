@@ -16,7 +16,7 @@ public class WesleySafadao {
         Integer safadeza = 0;
         for (Integer atual = mes; atual > 0; atual--)
             safadeza += atual;
-        return safadeza + ((ano / 100) * (50 - dia));
+        return safadeza + (int) ((ano / 100f) * (50 - dia));
     }
 
     private Integer getPercentualAnjo() {
