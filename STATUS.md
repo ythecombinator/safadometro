@@ -43,6 +43,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Self
 - [x] Smalltalk
 - [ ] Shell
+- [X] Smalltalk
 - [ ] Swift
 - [ ] TypeScript
 - [ ] VisualBasic
