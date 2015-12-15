@@ -33,7 +33,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Nimrod
 - [ ] OCaml
 - [ ] Pascal
-- [ ] PHP
+- [x] PHP
 - [ ] PogoScript
 - [ ] Processing
 - [ ] PureScript
