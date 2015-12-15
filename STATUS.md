@@ -27,7 +27,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Java
 - [ ] JavaScript
 - [ ] Ink
-- [ ] LiveScript
+- [x] LiveScript
 - [ ] Lua
 - [ ] MATLAB
 - [ ] Nimrod
