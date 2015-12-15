@@ -1,5 +1,9 @@
 # safadômetro
 
+> Polyglot implementations of "safadeza" calculus.
+
+![Aquele 1%](cover.png)
+
 Sometimes, you want to know how **safad(o/a)** - a Brazilian Portuguese word for
 *naughty* - someone is. A very popular Brazilian musician desbribes himself as
 being `99%` an angelical and perfect person; but the other `1%` is naughty - as
