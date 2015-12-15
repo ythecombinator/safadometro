@@ -4,7 +4,15 @@
 
 ![Aquele 1%](cover.png)
 
-## The problem
+## Table of Contents
+
+- [The Problem](#the-problem)
+- [Motivation](#motivation)
+- [Contributing](#contributing)
+- [Status](#status)
+- [License](#license)
+
+## The Problem
 
 Sometimes, you want to know how **safad(o/a)** - a Brazilian Portuguese word for
 *naughty* - someone is. A very popular Brazilian musician desbribes himself as
@@ -51,7 +59,7 @@ Brazilian musician, Wesley Safadão, to write his logical challenge.
 
 ## Contributing
 
-### Adding a new implementation
+### Adding a New Implementation
 
 1. Just think of your own interpretation of the problem.
 1. Fork this project!
@@ -62,13 +70,18 @@ you've implemented [here](STATUS.MD)
 1. Push to the branch: `git push origin master`
 1. Submit a pull request :)
 
-### Adding a new language
+### Adding a New Language
 
 1. Fork this project!
 1. Add the language to the [languages tracking file](STATUS.MD) - **don't forget to obey alphabetical order**.
 1. Commit your changes: `git commit -m 'Add JavaScript to listed languages'`
 1. Push to the branch: `git push origin master`
 1. Submit a pull request :)
+
+## Status
+
+You can check a list of languages in which the problem's been implemented - or
+should've been - [here](STATUS.MD).
 
 ## License
 
