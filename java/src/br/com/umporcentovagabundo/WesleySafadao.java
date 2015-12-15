@@ -2,21 +2,21 @@ package br.com.umporcentovagabundo;
 
 public class WesleySafadao {
 
-    private final Integer day;
-    private final Integer month;
-    private final Integer year;
+    private final Integer dia;
+    private final Integer mes;
+    private final Integer ano;
 
-    public WesleySafadao(Integer day, Integer month, Integer year) {
-        this.day = day;
-        this.month = month;
-        this.year = year;
+    private WesleySafadao(Integer dia, Integer mes, Integer ano) {
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
     }
 
     private Integer getPercentualSafadeza() {
         Integer safadeza = 0;
-        for (Integer current = month; current > 0; current--)
-            safadeza += current;
-        return safadeza + ((year / 100) * (50 - day));
+        for (Integer atual = mes; atual > 0; atual--)
+            safadeza += atual;
+        return safadeza + ((ano / 100) * (50 - dia));
     }
 
     private Integer getPercentualAnjo() {
@@ -29,6 +29,13 @@ public class WesleySafadao {
                 "Você é %1$s%% safado e %2$s%% anjo",
                 getPercentualSafadeza(),
                 getPercentualAnjo()));
+    }
+
+    public static WesleySafadao baseadoNaData(
+                    Integer dia,
+                    Integer mes,
+                    Integer ano) {
+        return new WesleySafadao(dia, mes, ano);
     }
 
 }
