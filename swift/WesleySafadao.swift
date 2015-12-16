@@ -14,8 +14,7 @@ func safadao(day:Int, month:Int, year:Int) -> (anjo:Float, safado:Float) {
     
     safado = Float(s) + (Float(year) / 100) * (50 - Float(day))
     anjo = 100 - safado
-    
-    
+
     return (anjo:anjo, safado:safado)
 }
 
