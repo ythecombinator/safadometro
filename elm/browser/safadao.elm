@@ -1,6 +1,6 @@
 import Graphics.Element exposing (..)
 import Graphics.Input.Field as Field
-import List exposing (sum, foldr)
+import List exposing (sum)
 import Result exposing (toMaybe)
 import Maybe exposing (andThen)
 import String 
@@ -10,17 +10,8 @@ type Update = Year Field.Content | Month Field.Content | Day Field.Content
 type alias Date = (Field.Content, Field.Content, Field.Content)
 type alias BigNaughty = { y : Int, m : Int, d : Int }
 
-year : Signal.Mailbox Update
-year = Signal.mailbox (Year Field.noContent)
-
-month : Signal.Mailbox Update
-month = Signal.mailbox (Month Field.noContent)
-
-day : Signal.Mailbox Update
-day = Signal.mailbox (Day Field.noContent)
-
-updates : Signal Update
-updates = Signal.mergeMany [year.signal, month.signal, day.signal]
+updates : Signal.Mailbox Update
+updates = Signal.mailbox (Year Field.noContent)
 
 getValues : Update -> Date -> Date
 getValues update (oldYear, oldMonth, oldDay) = 
@@ -32,12 +23,6 @@ getValues update (oldYear, oldMonth, oldDay) =
 parseValue : Field.Content -> Maybe Int
 parseValue c = String.toInt c.string |> toMaybe
 
-maybeToBool : Maybe a -> Bool
-maybeToBool m =
-  case m of 
-    Just _  -> True
-    Nothing -> False
-
 getBigNaughty : Date -> Maybe BigNaughty
 getBigNaughty (y,m,d) = 
     parseValue y `andThen` (\year ->
@@ -48,14 +33,13 @@ getBigNaughty (y,m,d) =
     else
       Nothing
     )))
-      
 
 safadeza : BigNaughty -> (Float, Float)
 safadeza {y, m, d} = 
   let safado = (toFloat <| sum [0..m]) + ((toFloat y) / 100) * (50 - (toFloat d))
       anjo   = 100 - safado
   in  (anjo, safado)
-  
+
 getSafadeza : Date -> Element
 getSafadeza d =
   case (getBigNaughty d) of
@@ -72,13 +56,13 @@ getSafadeza d =
 
 fields : Date -> Element
 fields = \(y,m,d) ->
-  width 200 <| flow down [ Field.field Field.defaultStyle (Signal.message year.address << Year) "Year" y,
-                           Field.field Field.defaultStyle (Signal.message month.address << Month) "Month" m,
-                           Field.field Field.defaultStyle (Signal.message day.address << Day) "Day" d,
+  width 200 <| flow down [ Field.field Field.defaultStyle (Signal.message updates.address << Year) "Year" y,
+                           Field.field Field.defaultStyle (Signal.message updates.address << Month) "Month" m,
+                           Field.field Field.defaultStyle (Signal.message updates.address << Day) "Day" d,
                            getSafadeza (y,m,d) ]
                            
 values : Signal Date
-values = Signal.foldp getValues (Field.noContent, Field.noContent, Field.noContent) <| updates
+values = Signal.foldp getValues (Field.noContent, Field.noContent, Field.noContent) <| updates.signal
 
 main : Signal Element
 main =
