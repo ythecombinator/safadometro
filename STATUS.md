@@ -54,6 +54,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Scheme
 - [ ] Self
 - [x] Shell
+- [x] Siren
 - [x] Smalltalk
 - [x] Swift
 - [ ] TypeScript

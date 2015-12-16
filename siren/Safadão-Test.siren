@@ -1,0 +1,6 @@
+$siren/1
+
+let Safadão = Module import siren: "./Safadão"; Safadão.
+
+let safado = Safadão day: 4 month: 5 year: 90.
+safado say!
