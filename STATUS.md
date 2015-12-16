@@ -19,7 +19,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Common LISP
 - [x] Dart
 - [x] Elixir
-- [ ] Elm
+- [x] Elm
 - [ ] Erlang
 - [ ] F#
 - [ ] FORTRAN
