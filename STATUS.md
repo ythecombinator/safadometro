@@ -9,29 +9,29 @@ This file is used to track the language used in the current implementations:
 - [x] AdvPL
 - [ ] BASIC
 - [x] C
-- [ ] C++
+- [x] C++
 - [x] C#
+- [x] Capybara
 - [ ] Clipper
 - [x] Clojure
-- [ ] COBOL
+- [x] COBOL
 - [x] CoffeeScript
 - [ ] Common LISP
-- [ ] Dart
+- [x] Dart
 - [x] Elixir
-- [ ] Elm
+- [x] Elm
 - [ ] Erlang
 - [ ] F#
 - [ ] FORTRAN
-- [ ] Go
+- [x] Go
 - [ ] Harbour
 - [x] Haskell
 - [ ] Haxe
 - [x] Hy
 - [x] Java
 - [x] JavaScript
-- [ ] Ink
 - [x] LiveScript
-- [ ] Lua
+- [x] Lua
 - [ ] MATLAB
 - [ ] Nimrod
 - [ ] Objective-C
@@ -58,4 +58,3 @@ This file is used to track the language used in the current implementations:
 - [ ] TypeScript
 - [x] VisualBasic
 - [ ] Whip
-- [ ] ZPL
