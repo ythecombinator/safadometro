@@ -18,7 +18,7 @@ Declare
       )
     ),
   anjo :: Double :=
-    php#subtract(100, safadeza).
+    @php#subtract(100, safadeza).
 
 
 Export Block saySafadeza
