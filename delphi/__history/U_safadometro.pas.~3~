@@ -1,0 +1,66 @@
+unit U_safadometro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls;
+
+type
+  TpaginaInicial = class(TForm)
+    txtNome: TEdit;
+    lblNome: TLabel;
+    lblDataNascimento: TLabel;
+    StatusBar1: TStatusBar;
+    txtDiaNascimento: TEdit;
+    bntCalcular: TButton;
+    txtMesNascimento: TEdit;
+    txtAnoNascimento: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    lblSafado: TLabel;
+    lblAnjo: TLabel;
+    procedure bntCalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  paginaInicial: TpaginaInicial;
+
+implementation
+
+{$R *.dfm}
+
+procedure TpaginaInicial.bntCalcularClick(Sender: TObject);
+var
+  somatorio, ano, dia,mes: Integer;
+  anjo, safado: double;
+  i, n: Integer;
+  nome: String;
+begin
+  nome := (txtNome.Text);
+  dia := strtoint(txtDiaNascimento.Text);
+  mes := strtoint(txtMesNascimento.Text);
+  ano:= strtoint(txtAnoNascimento.Text);
+  n := (mes);
+  somatorio := 0;
+  for i := n downto 0 do
+  begin
+    somatorio := somatorio + n;
+  end;
+
+
+  safado := (somatorio + (ano/100)+(50-dia));
+  anjo   := 100-safado;
+
+
+  lblAnjo.Caption := floattostr(anjo);
+  lblSafado.Caption := floattostr (safado);
+
+end;
+
+end.

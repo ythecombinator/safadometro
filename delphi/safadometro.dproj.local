@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/12/15 21:30:53.000.950,=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2015/12/15 21:33:08.952,=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2015/12/15 22:00:08.567,C:\Users\admin\Dropbox\Safadometro\U_safadometro.pas=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2015/12/15 22:00:08.568,C:\Users\admin\Dropbox\Safadometro\U_safadometro.dfm=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit6.dfm</Transaction>
+    <Transaction>2015/12/15 22:00:13.379,C:\Users\admin\Dropbox\Safadometro\safadometro.dproj=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Project6.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
