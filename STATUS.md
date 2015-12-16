@@ -22,7 +22,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Erlang
 - [ ] F#
 - [ ] FORTRAN
-- [ ] Go
+- [x] Go
 - [ ] Harbour
 - [x] Haskell
 - [ ] Haxe
