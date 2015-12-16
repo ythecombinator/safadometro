@@ -36,6 +36,7 @@ This file is used to track the language used in the current implementations:
 - [x] MATLAB/Octave
 - [ ] Nimrod
 - [x] Objective-C
+- [x]	Object-Pascal
 - [ ] OCaml
 - [x] Pascal
 - [ ] Perl
