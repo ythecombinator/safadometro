@@ -1,0 +1,196 @@
+object paginaInicial: TpaginaInicial
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'SAFAD'#212'METRO DELPHI VERSION'
+  ClientHeight = 317
+  ClientWidth = 318
+  Color = clScrollBar
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblNome: TLabel
+    Left = 22
+    Top = 51
+    Width = 41
+    Height = 15
+    Caption = 'NOME: '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblDataNascimento: TLabel
+    Left = 115
+    Top = 94
+    Width = 25
+    Height = 15
+    Caption = 'MES'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 36
+    Top = 89
+    Width = 22
+    Height = 15
+    Caption = 'DIA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 193
+    Top = 89
+    Width = 26
+    Height = 15
+    Caption = 'ANO'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblSafado: TLabel
+    Left = 207
+    Top = 192
+    Width = 10
+    Height = 49
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clPurple
+    Font.Height = -35
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblAnjo: TLabel
+    Left = 46
+    Top = 192
+    Width = 10
+    Height = 49
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clPurple
+    Font.Height = -35
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 76
+    Top = 8
+    Width = 143
+    Height = 26
+    Caption = 'SAFAD'#212'METRO'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Yu Gothic Light'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 66
+    Top = 296
+    Width = 153
+    Height = 13
+    Caption = 'Desenvolvido por: David Sim'#245'es'
+  end
+  object lblNomeResultado: TLabel
+    Left = 97
+    Top = 146
+    Width = 43
+    Height = 15
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clPurple
+    Font.Height = -40
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object txtNome: TEdit
+    Left = 64
+    Top = 48
+    Width = 217
+    Height = 23
+    Hint = 'DIGITE SEU NOME'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object txtDiaNascimento: TEdit
+    Left = 64
+    Top = 86
+    Width = 45
+    Height = 23
+    Hint = 'DIGITE SUA DATA DE NASC'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object bntCalcular: TButton
+    Left = 65
+    Top = 115
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = bntCalcularClick
+  end
+  object txtMesNascimento: TEdit
+    Left = 146
+    Top = 86
+    Width = 41
+    Height = 23
+    Hint = 'DIGITE SUA DATA DE NASC'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object txtAnoNascimento: TEdit
+    Left = 225
+    Top = 86
+    Width = 31
+    Height = 23
+    Hint = 'DIGITE SUA DATA DE NASC'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+end
