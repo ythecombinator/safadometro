@@ -17,6 +17,7 @@ This file is used to track the language used in the current implementations:
 - [x] COBOL
 - [x] CoffeeScript
 - [ ] Common LISP
+- [x] Dafny
 - [x] Dart
 - [x] Elixir
 - [x] Elm
@@ -32,7 +33,7 @@ This file is used to track the language used in the current implementations:
 - [x] JavaScript
 - [x] LiveScript
 - [x] Lua
-- [ ] MATLAB
+- [x] MATLAB/Octave
 - [ ] Nimrod
 - [ ] Objective-C
 - [ ] OCaml
@@ -53,8 +54,9 @@ This file is used to track the language used in the current implementations:
 - [ ] Scheme
 - [ ] Self
 - [x] Shell
+- [x] Siren
 - [x] Smalltalk
-- [ ] Swift
-- [x] TypeScript
+- [x] Swift
+- [x] TypeScript 
 - [x] VisualBasic
 - [ ] Whip

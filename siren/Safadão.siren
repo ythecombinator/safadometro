@@ -1,0 +1,41 @@
+$siren/1
+
+module
+  exposing { def_ Safadão = Safadão }
+where
+
+
+let Safadão = {
+  def_ traits {
+    def_ Safadômetro = Safadômetro.
+  }
+
+  def self describe
+    Debug-Text, "<Safadão>".
+
+  def self day: d month: m year: y
+    self traits Safadômetro {
+      def_ day = d as-float.
+      def_ month = m as-float.
+      def_ year = y as-float.
+    }
+}.
+
+let Safadômetro = Safadão {
+  def self describe
+    Debug-Text, "<Safadômetro safado: ", self safadeza describe, " anjo: ", self anjo describe, ">".
+
+  def self safadeza
+    let sum = (1.0 to: self month) as-tuple from: 0.0 fold-with: _ + _.
+    sum + ((self year / 100.0) * (50.0 - self day)).
+
+  def self anjo
+    100.0 - self safadeza.
+
+  def self say
+    Console write-line: "Você é ", self safadeza as-string, "% safado ",
+                        "e ", self anjo as-string, "% anjo.".
+
+  def self say!
+    self say run! future
+}.
