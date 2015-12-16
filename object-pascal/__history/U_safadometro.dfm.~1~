@@ -1,0 +1,107 @@
+object paginaInicial: TpaginaInicial
+  Left = 0
+  Top = 0
+  Caption = 'SAFAD'#212'METRO DELPHI VERSION'
+  ClientHeight = 276
+  ClientWidth = 291
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblNome: TLabel
+    Left = 22
+    Top = 51
+    Width = 36
+    Height = 13
+    Caption = 'NOME: '
+  end
+  object lblDataNascimento: TLabel
+    Left = 139
+    Top = 91
+    Width = 20
+    Height = 13
+    Caption = 'MES'
+  end
+  object Label1: TLabel
+    Left = 64
+    Top = 91
+    Width = 18
+    Height = 13
+    Caption = 'DIA'
+  end
+  object Label2: TLabel
+    Left = 222
+    Top = 91
+    Width = 22
+    Height = 13
+    Caption = 'ANO'
+  end
+  object lblSafado: TLabel
+    Left = 175
+    Top = 160
+    Width = 3
+    Height = 13
+  end
+  object lblAnjo: TLabel
+    Left = 51
+    Top = 160
+    Width = 3
+    Height = 13
+  end
+  object txtNome: TEdit
+    Left = 64
+    Top = 48
+    Width = 217
+    Height = 21
+    Hint = 'DIGITE SEU NOME'
+    TabOrder = 0
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 257
+    Width = 291
+    Height = 19
+    Panels = <>
+    ExplicitLeft = 112
+    ExplicitTop = 224
+    ExplicitWidth = 0
+  end
+  object txtDiaNascimento: TEdit
+    Left = 88
+    Top = 88
+    Width = 45
+    Height = 21
+    Hint = 'DIGITE SUA DATA DE NASC'
+    TabOrder = 2
+  end
+  object bntCalcular: TButton
+    Left = 64
+    Top = 115
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 3
+    OnClick = bntCalcularClick
+  end
+  object txtMesNascimento: TEdit
+    Left = 175
+    Top = 88
+    Width = 41
+    Height = 21
+    Hint = 'DIGITE SUA DATA DE NASC'
+    TabOrder = 4
+  end
+  object txtAnoNascimento: TEdit
+    Left = 250
+    Top = 88
+    Width = 31
+    Height = 21
+    Hint = 'DIGITE SUA DATA DE NASC'
+    TabOrder = 5
+  end
+end
