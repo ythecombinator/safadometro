@@ -17,6 +17,7 @@ This file is used to track the language used in the current implementations:
 - [x] COBOL
 - [x] CoffeeScript
 - [ ] Common LISP
+- [x] Dafny
 - [x] Dart
 - [x] Elixir
 - [x] Elm
@@ -54,7 +55,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Self
 - [x] Shell
 - [x] Smalltalk
-- [ ] Swift
+- [x] Swift
 - [ ] TypeScript
 - [x] VisualBasic
 - [ ] Whip
