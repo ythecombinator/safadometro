@@ -18,6 +18,7 @@ This file is used to track the language used in the current implementations:
 - [x] CoffeeScript
 - [ ] Common LISP
 - [ ] Dart
+- [X ]Delphi
 - [x] Elixir
 - [ ] Elm
 - [ ] Erlang
