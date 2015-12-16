@@ -38,6 +38,7 @@ This file is used to track the language used in the current implementations:
 - [x] Objective-C
 - [ ] OCaml
 - [x] Pascal
+- [x] Object-Pascal
 - [ ] Perl
 - [x] PHP
 - [ ] PogoScript
