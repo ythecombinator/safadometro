@@ -8,8 +8,8 @@ This file is used to track the language used in the current implementations:
 - [ ] Ada
 - [x] AdvPL
 - [ ] BASIC
-- [ ] C
-- [ ] C++
+- [x] C
+- [x] C++
 - [x] C#
 - [ ] Clipper
 - [x] Clojure
@@ -41,7 +41,7 @@ This file is used to track the language used in the current implementations:
 - [x] PHP
 - [ ] PogoScript
 - [ ] Processing
-- [x] Progress - Openedge
+- [x] Progress - OpenEdge
 - [ ] PureScript
 - [ ] Pyret
 - [x] Python
