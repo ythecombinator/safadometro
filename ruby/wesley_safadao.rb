@@ -6,7 +6,7 @@ class WesleySafadao
   end
 
   def safadeza
-    return (1..@month).reduce(:+) + (@year / 100.to_f) + (50 - @day) 
+    return (1..@month).reduce(:+) + (@year / 100.to_f) * (50 - @day) 
   end
 
   def angel
