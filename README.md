@@ -64,9 +64,13 @@ Brazilian musician, Wesley Safadão, to write his logical challenge.
 
 ## Contributing
 
-1. You must be listening the [music](http://www.vagalume.com.br/marcos-e-belutti/aquele-um-por-cento-part-wesley-safadao.html) while coding.
-1. You **MUST BE** listening the [music](http://www.vagalume.com.br/marcos-e-belutti/aquele-um-por-cento-part-wesley-safadao.html) while coding.
-1. If you have to stop listening, close the editor your time is over!
+### Basic Requirements
+
+- You must be listening to the [music](http://www.vagalume.com.br/marcos-e-belutti/aquele-um-por-cento-part-wesley-safadao.html) while coding.
+- You **MUST BE** listening to the [music](http://www.vagalume.com.br/marcos-e-belutti/aquele-um-por-cento-part-wesley-safadao.html) while coding.
+- If you have to stop listening, close the editor - your time is over!
+- Please, don' use tabs. Tabs are from Satan. Use spaces. - actually,
+just follow the basic [styleguide](.editorconfig).
 
 ### Adding a New Implementation
 
@@ -82,9 +86,12 @@ you've implemented [here](STATUS.md).
 1. Push to the branch: `git push origin master`.
 1. Submit a pull request :)
 
-### Adding a New Language
+> If you'd like to contribute with a language in which the algorithm has already
+been implemented - but you have a *new/special/different/whatever* way of making -,
+you can make it! Just create a new folder inside the folder of the language, e.g.
+`javascript/browser`, `javascript/node`, `javascript/react` etc.
 
-> Please, don' use tabs. Tabs are from Satan. Use spaces.
+### Adding a New Language
 
 1. Check if anyone has suggested this before [here](https://github.com/mabrasil/safadometro/pulls).
 1. Fork this project!
