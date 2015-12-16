@@ -102,4 +102,6 @@ should've been - [here](STATUS.md).
 MIT License, available in this repository. All contributions are assumed to be also licensed under
 the MIT License.
 
+> Please, don' use tabs. Tabs are from Satan. Use spaces.
+
 > Wesley Oliveira da Silva, also known as *Wesley Safadão*, is a Brazilian singer, songwriter, producer, and businessman. The *safadômetro* project does not have any rights over anything related to the him; images, logos, and everything related to the him have All Rights Reserved to *Wesley Safadão & Banda Garota Safada*.
