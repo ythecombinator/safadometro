@@ -42,6 +42,7 @@ This file is used to track the language used in the current implementations:
 - [ ] PogoScript
 - [ ] Processing
 - [x] Progress - OpenEdge
+- [x] Prolog
 - [ ] PureScript
 - [ ] Pyret
 - [x] Python

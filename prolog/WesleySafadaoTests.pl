@@ -1,0 +1,1 @@
+test() :- Year is 91, Month is 5, Day is 16, safadoCalculus(Year, Month, Day, Safadeza), printToScreen(Safadeza).
