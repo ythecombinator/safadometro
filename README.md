@@ -64,6 +64,10 @@ Brazilian musician, Wesley Safadão, to write his logical challenge.
 
 ## Contributing
 
+1. You must be listening the [music](http://www.vagalume.com.br/marcos-e-belutti/aquele-um-por-cento-part-wesley-safadao.html) while coding.
+1. You **MUST BE** listening the [music](http://www.vagalume.com.br/marcos-e-belutti/aquele-um-por-cento-part-wesley-safadao.html) while coding.
+1. If you have to stop listening, close the editor your time is over!
+
 ### Adding a New Implementation
 
 1. Just think of your own interpretation of the problem.
