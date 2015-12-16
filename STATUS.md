@@ -9,7 +9,7 @@ This file is used to track the language used in the current implementations:
 - [x] AdvPL
 - [ ] BASIC
 - [x] C
-- [ ] C++
+- [x] C++
 - [x] C#
 - [ ] Clipper
 - [x] Clojure
