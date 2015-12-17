@@ -10,7 +10,7 @@ values(3) = mid$(wesleysafadao,3,2)
 values(4) = mid$(wesleysafadao,5,2)
     
 For i = 0 To values(3)
-	values(1) += item
+    values(1) += item
 Next
 
 values(0) = values(1)+(values(4)/100)*(50-values(2))
