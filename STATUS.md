@@ -33,6 +33,7 @@ This file is used to track the language used in the current implementations:
 - [x] JavaScript
 - [x] LiveScript
 - [x] Lua
+- [x] Kotlin
 - [x] MATLAB/Octave
 - [ ] Nimrod
 - [x] Objective-C
