@@ -51,9 +51,9 @@ This file is used to track the language used in the current implementations:
 - [x] Progress - OpenEdge
 - [x] Prolog
 - [ ] PureScript
-- [x] Quick BASIC
 - [ ] Pyret
 - [x] Python
+- [x] Quick BASIC
 - [ ] Racket
 - [x] Ruby
 - [ ] Rust
@@ -66,5 +66,4 @@ This file is used to track the language used in the current implementations:
 - [x] Swift
 - [x] TypeScript 
 - [x] VisualBasic
-- [x] Vb.net
 - [ ] Whip
