@@ -1,22 +1,19 @@
-
-drop function wesleySafadao;
-DELIMITER //
-create function wesleySafadao(dday int, mmonth int, yyear int) returns varchar(60)
-DETERMINISTIC
+DROP FUNCTION IF EXISTS WESLEYSAFADAO;
+DELIMITER $$
+CREATE FUNCTION WESLEYSAFADAO(DDAY INT, MMONTH INT, YYEAR INT) RETURNS VARCHAR(60) DETERMINISTIC
 BEGIN
-DECLARE mySum, safadeza, anjo DOUBLE;
-set mySum = 0;
-set safadeza = 0; 
-set anjo = 0;
- WHILE mmonth > 0 DO
-    SET mySum = mySum + mmonth;
-    SET mmonth = mmonth -1;
-END WHILE;
-
-set safadeza = mySum + (yyear /100) * (50 - dday);
-set anjo = 100 - safadeza;
-return concat("Você é ", round(safadeza, 2), "% safado e ", round(anjo, 2), "% anjo");
+  DECLARE MYSUM, SAFADEZA, ANJO DOUBLE;
+  SET MYSUM = 0;
+  SET SAFADEZA = 0;
+  SET ANJO = 0;
+  WHILE MMONTH > 0 DO
+    SET MYSUM = MYSUM + MMONTH;
+    SET MMONTH = MMONTH - 1;
+  END WHILE;
+  SET SAFADEZA = MYSUM + (YYEAR / 100) * (50 - DDAY);
+  SET ANJO = 100 - SAFADEZA;
+  RETURN CONCAT("Você é ", ROUND(SAFADEZA, 2), "% safado e ", ROUND(ANJO, 2), "% anjo");
 END
- //
- 
-select wesleySafadao(5, 9, 91);
+$$
+SELECT WESLEYSAFADAO(5, 9, 91);
+
