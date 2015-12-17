@@ -26,6 +26,7 @@ This file is used to track the language used in the current implementations:
 - [ ] F#
 - [ ] FORTRAN
 - [x] Go
+- [X] Groovy
 - [ ] Harbour
 - [x] Haskell
 - [ ] Haxe
