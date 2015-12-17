@@ -20,10 +20,7 @@
 + (WesleyType) getSafadezaWithDay:(int)day Month:(int)month AndYear:(int)year
 {
   WesleyType safadao;
-  
   safadao.safadeza = [WesleySafadao sum:month] + ((float)year / 100) * (50 - day);
-  NSString *strSafado = [NSString stringWithFormat:@"%f", safadao.safadeza];
-  NSLog(@"%@", strSafado);
   safadao.angel = 100.0 - safadao.safadeza;
   
   return safadao;
