@@ -22,6 +22,3 @@ class WesleySafadao {
     println "Você é ${safadeza()}% safado e ${anjo()}% anjo."  
   }
 }
-
-safadao = new WesleySafadao(9, 12, 98)
-safadao.say_safadeza()
