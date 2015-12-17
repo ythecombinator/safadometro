@@ -18,7 +18,7 @@ Public Class Safadao
     End Sub
 
     Private Function SumMonth() As Integer
-        return Enumerable.Range(1, Me.Mes).Sum()
+        Return Enumerable.Range(1, Me.Mes).Sum()
     End Function
 
     Private Function CalcAnjo() As Double
