@@ -26,7 +26,7 @@ This file is used to track the language used in the current implementations:
 - [x] Elixir
 - [x] Elm
 - [ ] Erlang
-- [ ] F#
+- [x] F#
 - [ ] FORTRAN
 - [x] Go
 - [x] Groovy
