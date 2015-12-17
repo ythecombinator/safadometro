@@ -3,6 +3,9 @@
 > If you'd like to this make your implementation tracked or suggest
 any language in which you'd like to see implementations, check [this](CONTRIBUTING.md).
 
+**PLEASE, PLEASE, PLEASE, I HAVE OBSESSIVE COMPULSIVE DISORDER.**
+**THE `x` MUST BE LOWERCASE!**
+
 This file is used to track the language used in the current implementations:
 
 - [ ] Ada
@@ -26,7 +29,7 @@ This file is used to track the language used in the current implementations:
 - [ ] F#
 - [ ] FORTRAN
 - [x] Go
-- [X] Groovy
+- [x] Groovy
 - [ ] Harbour
 - [x] Haskell
 - [ ] Haxe
