@@ -8,6 +8,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Ada
 - [x] AdvPL
 - [ ] BASIC
+- [ ] Batch
 - [x] C
 - [x] C++
 - [x] C#
