@@ -5,8 +5,8 @@ export class Safadao {
 	constructor(public day:number, public month:number, public year:number) {}
 
 	safadeza():string {
-		return `${this._angel().toFixed(1)}% anjo, perfeito ` +
-			   `mas aquele ${this._naughty().toFixed(1)}% é vagabundo!`;
+		return `${this._angel().toFixed(1)}% anjo, perfeito 
+      mas aquele ${this._naughty().toFixed(1)}% é vagabundo!`;
 	}
 
 	private _naughty():number {
