@@ -34,6 +34,8 @@ previous positive integers, e.g. `sum(5) = 5 + 4 + 3 + 2 + 1`.
 - An `angel` function which is given by:
 
   `angel = 100 - safadeza`
+  
+_The last two functions **MUST** return a float_
 
 So this repo is for writing code that shows others how *safado* they are.
 
@@ -66,8 +68,7 @@ Brazilian musician, Wesley Safadão, to write his logical challenge.
 
 ### Basic Requirements
 
-- You must be listening to the [music](http://www.vagalume.com.br/marcos-e-belutti/aquele-um-por-cento-part-wesley-safadao.html) while coding.
-- You **MUST BE** listening to the [music](http://www.vagalume.com.br/marcos-e-belutti/aquele-um-por-cento-part-wesley-safadao.html) while coding.
+- You **MUST** be listening to the [music](http://www.vagalume.com.br/marcos-e-belutti/aquele-um-por-cento-part-wesley-safadao.html) while coding.
 - If you have to stop listening, close the editor - your time is over!
 - Please, don' use tabs. Tabs are from Satan. Use spaces. - actually,
 just follow the basic [styleguide](.editorconfig).
