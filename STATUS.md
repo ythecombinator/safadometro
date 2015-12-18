@@ -13,6 +13,7 @@ This file is used to track the language used in the current implementations:
 - [ ] BASIC
 - [x] Batch
 - [x] Brainfuck
+- [x] Brazuka Script
 - [x] C
 - [x] C++
 - [x] C#
