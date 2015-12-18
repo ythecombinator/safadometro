@@ -27,6 +27,7 @@ This file is used to track the language used in the current implementations:
 - [x] Elm
 - [ ] Erlang
 - [x] F#
+- [x] Fish
 - [ ] FORTRAN
 - [x] Go
 - [x] Groovy
