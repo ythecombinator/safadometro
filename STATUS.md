@@ -12,6 +12,8 @@ This file is used to track the language used in the current implementations:
 - [x] AdvPL
 - [ ] BASIC
 - [x] Batch
+- [x] Brainfuck
+- [x] Brazuka Script
 - [x] C
 - [x] C++
 - [x] C#
