@@ -10,6 +10,7 @@ This file is used to track the language used in the current implementations:
 
 - [ ] Ada
 - [x] AdvPL
+- [x] ArnoldC
 - [ ] BASIC
 - [x] Batch
 - [x] Brainfuck
