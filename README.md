@@ -10,6 +10,7 @@
 - [Motivation](#motivation)
 - [Contributing](#contributing)
 - [Status](#status)
+- [Importance](#importance)
 - [License](#license)
 
 ## The Problem
@@ -34,7 +35,7 @@ previous positive integers, e.g. `sum(5) = 5 + 4 + 3 + 2 + 1`.
 - An `angel` function which is given by:
 
   `angel = 100 - safadeza`
-  
+
 _The last two functions **MUST** return a float_
 
 So this repo is for writing code that shows others how *safado* they are.
@@ -105,6 +106,35 @@ you can make it! Just create a new folder inside the folder of the language, e.g
 
 You can check a list of languages in which the problem's been implemented - or
 should've been - [here](STATUS.md).
+
+## Importance
+
+This project may seem useless, but, amazingly, **it is not**.
+
+In about two days it achieved something interesting: a deterministic algorithm said
+to be *simple* which when implemented in [40+ languages](STATUS.md), tells us a lot!
+E.g.
+
+- It shows us a different *programming logig* from the imperative one we are
+probably used to think, such as declarative.
+
+- It allows us to think in different paradigms from the ones we are probably used
+to think, e.g. functional and logical ones.
+
+- It allows us to study and analyze *new implementations* in *new langs*, for example:
+a taste of [Smalltalk](https://github.com/mabrasil/safadometro/blob/master/smalltalk/WesleySafadao.st)'s pure Object
+Orientation - *hooray for Allan Kay, Adele Goldberg et al!* - or a bit of
+functional programming in [Haskell](https://github.com/mabrasil/safadometro/blob/master/haskell/WesleySafadao.hs) - and
+its beautiful *type system, monads etc.* - or the different *logic* that a
+language based on Horn Clauses such as [Prolog](https://github.com/mabrasil/safadometro/blob/master/prolog/WesleySafadao.pl) reveals.
+
+- Or, amazingly, the underground languages that we don't know - after all, getting to
+know a [DSL written in JS, which has a different approach to prototype-based OO](https://github.com/mabrasil/safadometro/blob/master/siren/Safadão.siren)
+or a [declarative DSL written in TypeScript and LiveScript which has a type system inspired by Idris and aims printers](https://github.com/mabrasil/safadometro/blob/master/capybara/WesleySafadao.capy) is not something you do every day.
+
+So the lesson is: **that kind of initiative shows us that in modern times not only
+with *FizzBuzz-alike* implementations you can learn programming logic/languages/
+paradigms**.
 
 ## License
 
