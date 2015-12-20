@@ -23,7 +23,7 @@ This file is used to track the language used in the current implementations:
 - [x] Clojure
 - [x] COBOL
 - [x] CoffeeScript
-- [ ] Common LISP
+- [x] Common LISP
 - [x] Dafny
 - [x] Dart
 - [x] Elixir
