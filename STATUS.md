@@ -60,7 +60,7 @@ This file is used to track the language used in the current implementations:
 - [x] Quick BASIC
 - [ ] Racket
 - [x] Ruby
-- [ ] Rust
+- [x] Rust
 - [x] Scala
 - [ ] Scheme
 - [ ] Self
