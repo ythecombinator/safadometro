@@ -19,5 +19,5 @@ safadeza=$((sum+$safadeza))
 
 anjo=$((100-$safadeza))
 
-echo "Você é $anjo% e $safadeza% safado."
+echo "Você é $anjo% anjo e $safadeza% safado."
 
