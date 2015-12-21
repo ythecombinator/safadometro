@@ -1,7 +1,8 @@
 #!/bin/sh
 if [ -z $1 ] || [ -z $2 ] || [ -z $3 ]; then
-echo "Informe nos parametros separado por espaço a sua data de nascimento." 
-echo "Exemplo: ./WesleySafadao.sh 21 10 94"
+  echo "Informe nos parametros separado por espaço a sua data de nascimento (dd mm yy)." 
+  echo "Exemplo: ./WesleySafadao.sh 21 10 94"
+  exit;
 fi
 
 dia=$1 
@@ -9,11 +10,11 @@ mes=$2
 ano=$3 
 
 for i in `seq 1 $mes` ; do
-    sum=`expr $sum + $i`
+  sum=$(($sum+$i))
 done
 
-x=`expr $ano / 100`
-y=`expr 50 - $dia`
+x=$(($ano/100))
+y=$((50-$dia))
 safadeza=$(($x*$y))
 safadeza=$((sum+$safadeza))
 
