@@ -58,7 +58,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Pyret
 - [x] Python
 - [x] Quick BASIC
-- [ ] Racket
+- [x] Racket
 - [x] Ruby
 - [x] Rust
 - [x] Scala
@@ -67,6 +67,7 @@ This file is used to track the language used in the current implementations:
 - [x] Shell
 - [x] Siren
 - [x] Smalltalk
+- [x] SML
 - [x] Swift
 - [x] TypeScript
 - [x] VisualBasic
