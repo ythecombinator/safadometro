@@ -11,7 +11,7 @@
 
 (define safadeza
   (lambda (day month year)
-    (+ (sum month) (* (/ year 100.00) (- day 50.00)))))
+    (+ (sum month) (* (/ year 100.00) (- 50.00 day)))))
 
 (define angel
   (lambda ()
