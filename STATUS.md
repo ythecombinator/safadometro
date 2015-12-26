@@ -32,6 +32,7 @@ This file is used to track the language used in the current implementations:
 - [x] F#
 - [x] Fish
 - [ ] FORTRAN
+- [x] Gambas
 - [x] Go
 - [x] Groovy
 - [ ] Harbour
