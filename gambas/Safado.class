@@ -1,0 +1,37 @@
+' Gambas class file
+
+Public day As Integer
+Public month As Integer
+Public year As Integer
+
+Public Sub Sum(n As Integer) As Integer
+  Dim i As Integer
+  Dim sum As Integer = 0
+  For i = n DownTo 1
+    sum += i
+  Next
+  Return sum
+End
+
+Public Sub Safadeza() As Float
+  Return Me.Sum(Me.month) + (Me.year / 100) * (50 - Me.day)
+End
+
+
+Public Sub Anjo(safadeza As Float) As Float
+  Return 100 - safadeza
+End
+
+Public Sub SaySafadeza()
+  Dim s As Float = Me.Safadeza()
+  Dim a As Float = Me.Anjo(s)
+  Print "Você é " & s & "% safado e " & a & "% anjo"
+End
+
+
+Public Sub _New(day As Integer, month As Integer, year As Integer)
+  Me.day = day
+  Me.month = month
+  Me.year = year
+End
+
