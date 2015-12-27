@@ -68,7 +68,7 @@ void preparaHost(float dia, float mes, float ano){
 	std::cout<<"Nivel de safazeda"<<std::endl;
 	std::cout<<safadezaHost[0]<<std::endl;
 
-	//Nivel de anjo
+	
 	cudaMalloc((void **)&anjoDevice,size); //Resultado anjo
 
 	cudaMalloc((void **)&safadezaTotal,size);
