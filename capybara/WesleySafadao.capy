@@ -1,0 +1,30 @@
+Module WesleySafadao.
+Import
+  StdPrint { field, font, label },
+  CompileTimeToolkit { php }.
+
+Declare
+  day :: Integer := 4,
+  month :: Integer := 12,
+  year :: Integer := 96.
+
+Declare
+  safadeza :: Double :=
+    @php#add(
+      @php#array_sum(@php#array_range(1, month)),
+      @php#multiply(
+        @php#divide(year, 100),
+        @php#subtract(50, day)
+      )
+    ),
+  anjo :: Double :=
+    @php#subtract(100, safadeza).
+
+
+Export Block saySafadeza
+  label#begin,
+  field#origin [ 100, 150 ],
+  font#sizing  [ 45,  25  ],
+  field#data   [ "Você é ", safadeza, "% safado e ", anjo, "% anjo" ],
+  field#sep,
+  label#end.

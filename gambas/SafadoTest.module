@@ -1,0 +1,6 @@
+' Gambas module file
+
+Public Sub Main()
+  Dim safado As Safado = New Safado(4, 12, 96)
+  safado.SaySafadeza
+End

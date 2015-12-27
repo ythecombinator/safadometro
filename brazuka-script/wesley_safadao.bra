@@ -1,0 +1,38 @@
+/* 
+ * Programa: Wesley Safadão
+ * Desenvolvido por : Luiz Peres
+ * E sim, eu estava escutando a musica
+ */ 
+
+funcao principal()
+{	
+  inteiro dia = 12;
+  inteiro mes = 11;
+  inteiro ano = 89;
+	
+  real safado = getSafadeza(dia, mes, ano);
+  real anjo = getAnjo(safado);
+  escreva("Você é %f safado e %f anjo \n", safado, anjo);
+}
+
+funcao real somatorio(real n)
+{
+  se (n == 1)
+  {
+	retorna 1;
+  }
+  senao
+  {
+    retorna n + somatorio(n-1); 
+  }
+}
+
+funcao real getSafadeza (real d, real m, real a)
+{
+  retorna somatorio(m) + (a/100) * (50 - d);
+}
+
+funcao real getAnjo(real saf)
+{
+  retorna 100 - saf;
+}
