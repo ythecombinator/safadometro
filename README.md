@@ -115,7 +115,7 @@ In about two days it achieved something interesting: a deterministic algorithm s
 to be *simple* which when implemented in [40+ languages](STATUS.md), tells us a lot!
 E.g.
 
-- It shows us a different *programming logig* from the imperative one we are
+- It shows us a different *programming logic* from the imperative one we are
 probably used to think, such as declarative.
 
 - It allows us to think in different paradigms from the ones we are probably used
