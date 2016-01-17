@@ -73,4 +73,5 @@ This file is used to track the language used in the current implementations:
 - [x] Swift
 - [x] TypeScript
 - [x] VisualBasic
+- [x] VisuAlg
 - [ ] Whip
