@@ -60,6 +60,7 @@ This file is used to track the language used in the current implementations:
 - [ ] Pyret
 - [x] Python
 - [x] Quick BASIC
+- [x] R
 - [x] Racket
 - [x] Ruby
 - [x] Rust
