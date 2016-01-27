@@ -1,0 +1,23 @@
+module Safadometro
+
+:- functional_version
+def wesley_safadao [day: int; month: int; year: int]: void
+  print "Você é \(safadeza)% safado e \(anjo)% anjo"
+    where
+      safadeza :- array_sum[1 .. month] + [year / 100] * [50 - day]
+      anjo     :- 100 - safadeza
+
+:- imperative_version
+def new_range [max: int]: Generator [
+  let i: int
+  for i :- 1 to max while i < max do yield i
+]
+
+def sum [n: int]: int iterator_to_array[new_range[n]]
+
+def wesley_safadao [day: int; month: int; year: int]: void [
+  let safadeza: double :- sum[month] + [year / 100] * [50 - day]
+  let anjo: double :- 100 - safadeza
+
+  print "Você é \(safadeza)% safado e \(anjo)% anjo"
+]
