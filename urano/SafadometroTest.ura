@@ -1,0 +1,5 @@
+module Safadometro
+
+import qualified Safadometro as S
+
+S.wesley_safadao[21; 10; 94]
