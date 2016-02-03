@@ -29,7 +29,7 @@ This file is used to track the language used in the current implementations:
 - [x] Dart
 - [x] Elixir
 - [x] Elm
-- [ ] Erlang
+- [x] Erlang
 - [x] F#
 - [x] Fish
 - [ ] FORTRAN
