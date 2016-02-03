@@ -19,7 +19,11 @@
             (setq sum (+ sum month))
             (setq month (1- month)))
           (setq safadeza (+ sum (* (/ year 100.0) (- 50 day))))
-          (message (format "Você é %s safado, e %s anjo." safadeza (- 100 safadeza)))
+          (if (> safadeza 100) (setq safadeza 100)) ; if the person is too safado value should be rounded to 100%
+          (message
+           (concat (format "Você é %.2f" safadeza) "%%"
+                   (format " safado, e %.2f" (- 100 safadeza)) "%% anjo."
+                   ))
           )
         )
         (message "Por favor, digite no formato dd/mm/aa.")
