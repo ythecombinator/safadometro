@@ -7,9 +7,11 @@ safadeza(Dia, Mes, Ano) ->
 
 
 safadeza(Dia, 0, Ano, FatorSafadao) -> 
-	Safadeza = FatorSafadao + (( Ano / 100.0 ) * ( 50 - Dia )),
-	Anjo = 100.0 - Safadeza,
-	{ Safadeza, Anjo }; 
+	AnoSafado = Ano div 100,
+	DiaSafado = 50 - Dia,
+	Safadeza = FatorSafadao + (AnoSafado * DiaSafado),
+	Anjo = 100 - Safadeza,
+	io:format("~p% anjo, perfeito, mas aquele ~p% ... \n", [ Anjo, Safadeza ] );
 
 safadeza(Dia, Mes, Ano, FatorSafadao ) ->	
 	safadeza(Dia, Mes - 1, Ano, FatorSafadao + Mes ).
