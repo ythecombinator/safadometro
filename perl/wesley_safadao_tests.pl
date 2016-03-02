@@ -1,7 +1,9 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 use strict;
-require 'wesley_safadao.pl';
+use FindBin qw($Bin);
+use lib "$Bin";
+use wesley_safadao;
 
-my ($safadeza, $anjo) = &wesley_safadao(13, 6, 87);
+my ($safadeza, $anjo) = wesley_safadao 13, 6, 87;
 print "Anjo: $anjo%\n";
-print "Safadeza: $safadeza\n";
+print "Safadeza: $safadeza%\n";
