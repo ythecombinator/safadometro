@@ -7,8 +7,8 @@ sub soma {
 
 sub wesley_safadao {
     my ($d, $m, $a) = @_;
-    my ($safadeza) = soma($m) + $a / 100 * (50 - $d);
-    my ($anjo) = 100 - $safadeza;
+    my $safadeza = soma($m) + $a / 100 * (50 - $d);
+    my $anjo = 100 - $safadeza;
     return ($safadeza, $anjo);
 }
 
