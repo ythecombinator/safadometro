@@ -20,7 +20,7 @@ This file is used to track the language used in the current implementations:
 - [x] C++
 - [x] C#
 - [x] Capybara
-- [ ] Clipper
+- [x] Clipper
 - [x] Clojure
 - [x] COBOL
 - [x] CoffeeScript
