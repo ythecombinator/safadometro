@@ -1,0 +1,17 @@
+somatorio(n: Inteiro)
+  var r = 0
+  para i de 1 até n faca
+    r := r + i
+  fim
+  r
+fim
+
+safadeza(dia: Inteiro, mes: Inteiro, ano: Inteiro)
+  somatorio(mes) + (ano/100) * (50 - dia)
+fim
+
+escreva_safadeza(dia: Inteiro, mes: Inteiro, ano: Inteiro)
+  var saf = safadeza(dia, mes, ano)
+  var anj = 100 - saf
+  escreva "Você é {saf formato "%.1f"}% safado e {anj formato "%.1f"}% anjo"
+fim
