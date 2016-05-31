@@ -6,12 +6,12 @@ somatorio(n: Inteiro)
   r
 fim
 
-safadeza(dia: Inteiro, mes: Inteiro, ano: Inteiro)
+safadeza(dia, mes, ano: Inteiro)
   somatorio(mes) + (ano/100) * (50 - dia)
 fim
 
-escreva_safadeza(dia: Inteiro, mes: Inteiro, ano: Inteiro)
-  var saf = safadeza(dia, mes, ano)
-  var anj = 100 - saf
-  escreva "Você é {saf formato "%.1f"}% safado e {anj formato "%.1f"}% anjo"
+escreva_safadeza(dia, mes, ano: Inteiro)
+  saf = safadeza(dia, mes, ano)
+  anj = 100 - saf
+  escreva "Você é {saf formato "%.1f"}% safado e {anj formato "%.1f"}% anjo."
 fim
