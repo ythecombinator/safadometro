@@ -1,9 +1,7 @@
-class Safadao(){
-  def getCalc(day : Int, month : Int, year : Int){
-    var nY   = year : Float
-    var saf  = List.range(1, month + 1).sum  + ((nY / 100) * (50 - day))
-    def anjo = 100 - saf
-
-    println("Você é " + saf + "% safado e " + anjo + "% anjo")
+case class Safadao(day: Int, month: Int, year: Int) {
+  def saySafadeza() = {
+    val saf  = (1 to month + 1).sum  + (year / 100.0) * (50 - day)
+    val anjo = 100 - saf
+    println(s"Você é $saf% safado e $anjo% anjo")
   }
 }
