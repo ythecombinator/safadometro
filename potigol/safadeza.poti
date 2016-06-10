@@ -1,10 +1,4 @@
-somatorio(n: Inteiro)
-  var r = 0
-  para i de 1 até n faca
-    r := r + i
-  fim
-  r
-fim
+somatorio(n: Inteiro) = para i de 1 até n gere i fim.injete(0)(_+_)
 
 safadeza(dia, mes, ano: Inteiro)
   somatorio(mes) + (ano/100) * (50 - dia)
