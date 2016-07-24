@@ -47,7 +47,7 @@ This file is used to track the language used in the current implementations:
 - [x] Lua
 - [x] Kotlin
 - [x] MATLAB/Octave
-- [ ] Nimrod
+- [x] Nim
 - [x] Objective-C
 - [ ] OCaml
 - [x] Pascal
