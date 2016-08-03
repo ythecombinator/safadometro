@@ -1,0 +1,21 @@
+OH O HOME AI PO (TRAPEZIO DESCENDENTE * getSafadeza(MONSTRO dia, MONSTRO mes, MONSTRO ano))
+    TRAPEZIO DESCENDENTE t_ano = (TRAPEZIO DESCENDENTE)ano;
+    TRAPEZIO DESCENDENTE aux;
+    static TRAPEZIO DESCENDENTE ret[2];
+    MONSTRO x, soma_for=0;
+    MAIS QUERO MAIS (x = 0; x < 5; x++)
+        soma_for = soma_for + x;
+    BIRL 
+    aux = soma_for + ((t_ano / 100) * (50 - dia));
+    ret[0] = aux;
+    ret[1] = 100-aux;
+    BORA CUMPADE ret;
+BIRL 
+
+HORA DO SHOW
+    MONSTRO dia, mes, ano;
+    scanf("%d%d%d", &dia, &mes, &ano);
+    TRAPEZIO DESCENDENTE *sfd = getSafadeza(dia, mes, ano); 
+    scanf("%d%d%d", &dia, &mes, &ano);
+    CE QUER VER ESSA PORRA? ("Você é %0.2lf%% safado e %0.2lf%% anjo \n", sfd[0], sfd[1]);    BORA CUMPADE 0;
+BIRL
