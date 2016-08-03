@@ -3,7 +3,7 @@ OH O HOME AI PO (TRAPEZIO DESCENDENTE * getSafadeza(MONSTRO dia, MONSTRO mes, MO
     TRAPEZIO DESCENDENTE aux;
     static TRAPEZIO DESCENDENTE ret[2];
     MONSTRO x, soma_for=0;
-    MAIS QUERO MAIS (x = 0; x < mes; x++)
+    MAIS QUERO MAIS (x = 0; x <= mes; x++)
         soma_for = soma_for + x;
     BIRL 
     aux = soma_for + ((t_ano / 100) * (50 - dia));
