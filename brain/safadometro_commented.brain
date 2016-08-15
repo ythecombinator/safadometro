@@ -1,0 +1,108 @@
+Author: Luiz Peres
+
+++++++++++++ day 12 
+>+++++++++++ month 11
+
+{
+  >++++++++< 88
+             11 times 8 equal to 88
+}
+>+ year 89
+
+| 12 | 11 | 89 | 0 | 0 | 
+            ^
+>> 
++++++
+[
+  <++++++++++>-
+] make number 50 at 3rd cell
+
+| 12 | 11 | 89 | 50 | 0 | 
+                      ^
+<<<<
+{
+  >>>-<<< subtract the day from 50
+}
+
+| 12 | 11 | 89 | 38 | 0 | 
+  ^
+
+>>>* go to 3rd cell and multiply with the year 
+
+| 12 | 11 | 89 | 3382 | 0 | 
+                 ^
+<< go to 1st cell and copy the number to the 4th cell 
+{
+  >>>+<<<
+}
+>>>
+| 12 | 11 | 89 | 3382 | 11 |
+                        ^  
+>++++++++++ make the number 100 and 10000
+>+**** number 10000
+>+* copy number 10000
+<// make number 100
+
+| 12 | 11 | 89 | 3382 | 11 | 10 | 100 | 10000 |
+                                  ^
+<[-]+*<[-]> copy the year 
+
+| 12 | 11 | 89 | 3382 | 0 | 11 | 100 | 10000 |
+                             ^
+making summation of the month
+{
+  {
+    <+>
+  } 
+  -
+}+*
+
+| 12 | 11 | 89 | 3382 | 66 | 66 | 100 | 10000 |
+                             ^
+>* multiply the summation of the month with 100
+
+| 12 | 11 | 89 | 3382 | 66 | 66 | 6600 | 10000 |
+                                  ^ 
+<<<[>>>+<<<-]
+
+| 12 | 11 | 89 | 0 | 66 | 66 | 9982 | 10000 |
+                 ^
+>>>{>-<}
+
+| 12 | 11 | 89 | 0 | 66 | 66 | 9982 | 18 |
+                               ^
+result done
+now we just need to print everything out
+
+SAFADO'percetage'ANJO'percentage'
+
+>> +++>++++++++++*++ space
+
+| 12 | 11 | 89 | 0 | 66 | 66 | 9982 | 18 | 3 | 32
+                                               ^
+>++*+ make number 65 'A' 
+>+*+++++ make number 70 'F'
+>+*+++++++++++++ make number 83 'S'
+
+| 12 | 11 | 89 | 0 | 66 | 66 | 9982 | 18 | 3 | 32 | 65 | 70 | 83 |
+                                                              ^
+. print S
+<<. print A
+>. print F
+<. print A 
+>--. print D
+>----. print O
+
+<<<. print space
+<<<$ print 9988 divided by 100
+>>>. print space
+
+>. print A
+>>-. print N
+<++++++. print J
+>+. print O
+
+<<<. print space
+<<$ print 18 divided by 100
+
+>[-]++++++++++.+++. print new line
