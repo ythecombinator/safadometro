@@ -16,4 +16,4 @@ let config :- @{ day → 4; month → 12; year → 96 }
   trace("You are " + naughty + "% naughty and " + angel + "% angel")
     where [naughty; angel] :- calc(config.day; config.month; config.year)
 
-do 'vim: Syntax: OCaml
+do 'vim: Syntax=OCaml
