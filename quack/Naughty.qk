@@ -8,7 +8,7 @@ let config :- @{ day → 4; month → 12; year → 96 }
 λ sumUpTo( n ⊢ ℤ ) ⊢ List.of(ℤ) :-
   1 .. n |> reduce(&(+))
 
-λ calc(day: ℤ; month: ℤ; year: ℤ): Tuple.of(Double; Double) :-
+λ calc(day ⊢ ℤ; month ⊢ ℤ; year ⊢ ℤ) ⊢ Tuple.of(Double; Double) :-
   [naughty; angel] where naughty :- (month |> sumUpTo) + (year ÷ 100) × (50 - day)
                        , angel   :- 100 - naughty
 
