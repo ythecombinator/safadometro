@@ -54,6 +54,7 @@ This file is used to track the language used in the current implementations:
 - [x] Perl
 - [x] PHP
 - [ ] PogoScript
+- [x] Pony
 - [x] Potigol
 - [ ] Processing
 - [x] Progress - OpenEdge
