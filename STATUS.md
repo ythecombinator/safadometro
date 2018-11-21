@@ -33,7 +33,7 @@ This file is used to track the language used in the current implementations:
 - [x] Erlang
 - [x] F#
 - [x] Fish
-- [ ] FORTRAN
+- [x] FORTRAN
 - [x] Gambas
 - [x] Go
 - [x] Groovy
