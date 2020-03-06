@@ -1,3 +1,3 @@
-# copy and paste safadeza.poti
+use "safadeza.poti"
 
-escreva_safadeza(9,3,97) # Você é 45,8% safado e 54,2% anjo
+escreva_safadeza(9, 3, 97) # Você é 45,8% safado e 54,2% anjo
